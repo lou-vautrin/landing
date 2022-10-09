@@ -1,0 +1,28 @@
+.container {
+	width: 800px;
+	margin: 110px auto;
+}
+
+.container h3 {
+	margin: 0px auto;
+	margin-bottom: 60px;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 800px;
+	}
+}
+
+@media (max-width: 820px) {
+	.container {
+		width: 550 px; 
+	}
+}
+
+@media (max-width: 570px) {
+	.container {
+		width: 250px;
+	}
+}
+

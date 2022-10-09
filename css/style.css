@@ -1,0 +1,40 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400;600;800&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+
+/* Importing all components file */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/button.css");
+
+
+/* Colors and fonts */
+
+body {
+	background: #D8D9CF;
+	font-family:'Roboto Slab', serif;
+	font-weight: 400;
+	color: white ;
+}
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bolder;
+	font-weight: 800;
+	font-size: 70px;
+	color: white ;
+}
+
+h2 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: lighter;
+	font-weight: 200 ;
+	font-size: 30px ;
+	color : white ; 
+}
+
+a {
+	text-decoration: none;
+}
+
